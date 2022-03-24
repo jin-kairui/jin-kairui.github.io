@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content = "width=device-width, inital-scale=1.0">
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="murakami.css">
+    </head>
+
+    <body>
+        <main>
+            <h1>SUPERFLAT.</h1>
+            <h2>MURAKAMI TAKASHI.</h2>
+
+            <div class = 'bg1'>
+                <img src = '../wk7pics/ego1.jpg' width="400">
+            </div>
+            <div class = 'bg2'>
+                <img src = '../wk7pics/ego2.jpg' width="400">
+            </div>
+
+            <bganim>
+                <img src="../wk7pics/ego4.jpg" width="1">
+            </bganim>
+            
+            <div class = slideshow>
+            <img class="featured" src="../wk7pics/ego3.jpeg" width="650">
+            <img class="featured" src="../wk7pics/ego5.jpeg" width="580">
+            <img class="featured" src="../wk7pics/ego7.jpg" width="600">
+            <img class="featured" src="../wk7pics/ego8.jpeg" width="650">
+            </div>
+
+            <script>
+                var slideIndex = 0;
+                carousel();
+
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("featured");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {slideIndex = 1}
+                x[slideIndex-1].style.display = "block";
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+        </main>
+    </body>
+</html>
