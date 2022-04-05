@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: beige;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    padding-top: 0;
+    position: relative;
+    top: 30px;
+}
+
+#pOne {
+    background-color: rgb(15, 11, 65);
+    border-width: 8px;
+    border-color: black;
+    margin: 20px;
+    color: beige;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pTwo {
+    background-color: rgb(50, 13, 13);
+    border-width: 8px;
+    border-color: black;
+    margin: 20px;
+    color: beige;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pThree {
+    background-color: rgb(16, 62, 76);
+    border-width: 8px;
+    border-color: black;
+    margin: 20px;
+    color: beige;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pFour {
+    background-color: rgb(10, 58, 10);
+    border-width: 8px;
+    border-color: black;
+    margin: 20px;
+    color: beige;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
