@@ -12,43 +12,28 @@
 
     <body>
         <main>
-            <!-- the &nbsp; just adds an extra space since the font was getting smushed together -->
-            <h1>Play &nbsp;&nbsp;with &nbsp;&nbsp;Boo!</h1>
+            <h1> It&nbsp;&nbsp; looks&nbsp;&nbsp; friendly!</h1>
 
-            <div class = "game_container">
-                <!-- no idea why the status bar won't change to different color
-                     i tried using status & status_bar as two diff variables also 
-                -->
+            <div id = "game_container">
+                <div class="background_box"></div>
+
                 <div id = "status_bar">
-                    <img id = "status_bar" src="assets/redbar.PNG">
+                    <img id = "status_img" src="assets/redbar.PNG">
                 </div>
 
                 <div id = "ghost">
                     <img id = "ghost_img" src="assets/normalboo.PNG"> 
                 </div>
 
-                <div id = "time">
-                    <img id = "scenery" src="assets/night.PNG" width="800" height="500">
-                </div>
-
-                <div id = "clock">
-                    <img id = "clock" src="assets/clock.PNG">
-                </div>
-
-            <!-- removed for now because the text doesn't center in this textbox
-                <div id = "textbox">
-                    <img id = "textbox" src="assets/textbox.PNG" width="700">
-                </div>
-            -->
+                <div id = "clock"><img src="assets/clock.PNG"></div>
 
                 <div class = 'action_buttons_container'>
                     <div id = "love"><img src="assets/heartbutton.PNG"></div>
                     <div id = "chat"><img src= "assets/chatbutton.PNG"></div>
                     <div id = "music"><img src = "assets/musicbutton.PNG"></div>
                 </div>
-
-                <div id = "text"> Boo's &nbsp;&nbsp;feeling &nbsp;&nbsp;lonely. </div>
-
+                <!-- <div id = "textbox"> Boo's &nbsp;&nbsp;feeling &nbsp;&nbsp;lonely. </div> -->
+                <div id = "textbox"> Play &nbsp;&nbsp;with &nbsp;&nbsp;me!</div>
             </div>
 
         </main>
@@ -58,3 +43,4 @@
         </main>
     </body>
 </html>
+
