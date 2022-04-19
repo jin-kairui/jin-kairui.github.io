@@ -134,7 +134,7 @@ input[type=submit] {
 }
 
 #textbox {
-    background-image: url("assets/textbox.png");
+    background-image: url('assets/textbox.PNG');
     background-size: 700px;
     background-position: center;
     background-repeat: no-repeat;
