@@ -1,0 +1,72 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: tan;
+    flex-direction: row;
+}
+
+h1 { 
+    position: relative; 
+    font-size: 100px;
+    padding: 0px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(158, 112, 51);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(158, 112, 51);
+}
+.container { 
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex-wrap: wrap; /*wrap text around to next row*/
+    align-content:flex-start; /*start from top of column*/
+    align-items:start;
+    justify-content:space-evenly;
+}
+
+.flex_object { 
+    align-self: center; /*center vertically on each row*/
+    flex-basis: 500px; /*row width*/
+    padding: 5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(158, 112, 51);
+    margin: 20px;
+    width: 400px;
+}
+
+.flex_text {
+    text-align: center;
+    align-self: center;
+    font-size: 70px;
+    flex-basis: 500px; /*row width*/
+    padding: 5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(158, 112, 51);
+    color: white;
+    margin: 20px;
+    width: 400px;  
+}
+
+.flex_caption {
+    text-align: left;
+    align-self: center;
+    font-size: 40px;
+    flex-basis: 500px; /*row width*/
+    padding: 15px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(158, 112, 51);
+    color: white;
+    margin: 20px;
+    width: 400px;
+}
