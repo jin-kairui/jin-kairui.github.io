@@ -1,0 +1,196 @@
+@font-face {
+    font-family: Soda Land Free Version;
+    src: url(finalmedia/Soda\ Land\ Free\ Version.ttf);
+}
+
+body {
+    font-family: Soda Land Free Version;
+    color: white;
+    background-color: rgb(153, 185, 205);
+    font-size: 60px;
+    padding: 0px; 
+    margin: 0px;
+    flex-direction: row;
+
+}
+
+/*regular body, descriptions*/
+p {
+    font-family: Soda Land Free Version;
+    color: white;
+    font-size: 60px;
+    padding: 0px; 
+    margin: 0px;
+    flex-direction: row;
+}
+
+/*big buttons, checkout, back*/
+h1 { 
+    position: relative; 
+    font-size: 90px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color:white;
+    font-family:Soda Land Free Version;
+}
+/*price*/
+h2 { 
+    position: relative; 
+    font-size: 80px;
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+    color:rgb(41, 69, 86);
+    font-family:Soda Land Free Version;
+}
+h3 { 
+    position: relative; 
+    font-size: 60px;
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+    color:rgb(41, 69, 86);
+    font-family:Soda Land Free Version;
+}
+
+a:link {text-decoration: none;}
+h1:hover {
+    color:rgb(41, 69, 86);
+}
+
+.container { 
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex-wrap: wrap; /*wrap text around to next row*/
+    align-content:center; /*start from top of column*/
+    align-items:center;
+    justify-content:space-evenly;
+    column-gap: 10px;
+}
+
+.text_container { 
+    padding-top: 0px;
+    position: relative;
+    top: -30px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    flex-wrap: wrap; /*wrap text around to next row*/
+    align-content:center; /*start from top of column*/
+    align-items:center;
+    justify-content:space-evenly;
+    column-gap: 10px;
+}
+
+.flex_pic { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    column-gap: 100px; /*between items horizontally*/
+    row-gap: 30px;
+    padding: 15px; /*on items as a whole*/
+    margin: 10px;
+}
+   
+/* tried to make it look better on full screen, but it'll look
+different on every screen anyway so oh well
+.milktea {
+    position: relative;
+    top: -90px;
+}
+.hellopanda {
+    position: relative;
+    top: -20px;
+}
+.chocorooms {
+    position: relative;
+    top: -80px;
+    left: 20px;
+}
+.milkbread {
+    position: relative;
+    top: -30px;
+    left: 30px;
+} 
+
+.pocky {
+    position: relative;
+    top: 80px;
+    left: -30px;
+}
+
+.cupnoodle {
+    position: relative;
+    top: -120px;
+    left: 660px;
+}*/
+
+.flex_text {
+    text-align: center;
+    align-self: center;
+    
+    column-gap: 30px;
+}
+
+.checkout_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    column-gap: 80px; /*between items horizontally*/
+    row-gap: 0px;
+    padding: 5px; /*on items as a whole*/
+    margin: 10px;
+    width: 500px;
+    border-radius: 25px;
+    background-color:rgb(80, 126, 154);
+    padding: 20px;
+}
+
+.checkout_prices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items:center;
+    justify-content: center;
+    column-gap: 80px; /*between items horizontally*/
+    row-gap: 20px;
+    padding: 5px; /*on items as a whole*/
+    margin: 10px;
+}
+
+.flex_caption {
+    text-align: center;
+    align-self: center;
+    font-size: 40px;
+    /*flex-basis: 600px; /*row width*/
+    padding: 15px;
+    color: white;
+    margin: 20px;
+    width: 600px;
+
+}
+
+.blue_bg {
+    border-radius: 25px;
+    background-color:rgb(80, 126, 154);
+    padding: 20px;
+}
+
+.white_border {
+    border-radius: 25px;
+    background-color: rgb(80, 126, 154);
+    border: 8px solid white;
+    padding: 10px 40px;
+    margin: 10px;
+}
+
