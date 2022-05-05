@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content = "width=device-width, inital-scale=1.0">
+        <meta charset="utf-8">
+        <title>CHECKOUT</title>
+        <link rel='stylesheet' type ='text/css' href='shopstyle.css'>
+        <script src="finalcalcs.js" defer></script>
+    </head>
+
+    <body>
+        <main>
+            <div class = 'container'>
+
+                <form>
+                <div class = 'checkout_box' >
+                    <img src = "finalmedia/hellopanda.PNG" width ="280">
+                    <h3>
+                        Hello Panda
+                        $1.99
+                    </h3>
+                    <div class="calculation">
+                        <label for="inputHP" class="form-label">HP Quantity:</label>
+                        <input type="text" class="form-control" id="inputHP" oninput="totalPrice()" >
+                    </div>
+                </div>
+                </form>
+
+                <form>
+                <div class = 'checkout_box' >
+                    <img src = "finalmedia/pocky.PNG" width ="180"> 
+                    <h3>
+                        Pocky 
+                        $2.99
+                    </h3>
+                    <div class="calculation">
+                        <label for="inputP" class="form-label">P Quantity:</label>
+                        <input type="text" class="form-control" id="inputP" oninput="totalPrice()" >
+                    </div> 
+                </div>
+            </form>
+
+            <form>
+                <div class = 'checkout_box' >
+                    <img src = "finalmedia/milktea.PNG" width ="180">                  
+                    <h3>
+                        Royal Milk Tea 
+                        $2.99
+                    </h3>
+                    <div class="calculation">
+                        <label for="inputRMT" class="form-label">RMT Quantity:</label>
+                        <input type="text" class="form-control" id="inputRMT" oninput="totalPrice()" >
+                    </div>
+                </div>
+            </form>
+
+            <form>
+                <div class = 'checkout_box' >
+                    <img src = "finalmedia/chocorooms.PNG" width ="250">
+                    <h3>
+                        Chocorooms 
+                        $2.99
+                    </h3>
+                    <div class="calculation">
+                        <label for="inputCR" class="form-label">CR Quantity:</label>
+                        <input type="text" class="form-control" id="inputCR" oninput="totalPrice()" >
+                    </div>
+                </div>
+            </form>
+
+            <form>
+                <div class = 'checkout_box' >
+                    <img src = "finalmedia/cupnoodle.PNG" width ="240">
+                    <h3>
+                        Cup Noodle 
+                        $1.99
+                    </h3>
+                    <div class="calculation">
+                        <label for="inputCN" class="form-label">CN Quantity:</label>
+                        <input type="text" class="form-control" id="inputCN" oninput="totalPrice()" >
+                    </div>
+                </div>
+            </form>
+
+            <form>
+                <div class = 'checkout_box' >
+                    <img src = "finalmedia/milkbread.PNG" width ="260">
+                    <h3>
+                        Milk Bread 
+                        $3.99
+                    </h3>
+                    <div class="calculation">
+                        <label for="inputMB" class="form-label">MB Quantity:</label>
+                        <input type="text" class="form-control" id="inputMB" oninput="totalPrice()" >
+                    </div>
+                </div>
+            </form>
+
+            <form>
+                    <hr>
+                    <h2>Total Price: $<span id="finalPrice">0</span></h2>
+                </form>
+            
+                <div class="white_border">
+                    <a href = 'finalhome.html'>
+                        <h1>HOME</h1>
+                    </a>   
+                </div>
+            </div>
+            
+            
+        </main>
+    </body>
+</html> 
